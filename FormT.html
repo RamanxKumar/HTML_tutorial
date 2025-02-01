@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Tag</title>
+</head>
+<body>
+    <form action="/contact">
+        Username: <input type="text" placeholder="Enter Nmae">
+        <br><br>
+        Password:<input type="password" placeholder="Enter password" >
+        <br><br>
+        <input type="Submit">
+    </form>
+
+    <hr>
+
+    <form action="/database" method="post">
+        <label for="Name"> Username:</label>
+        <input type ="text" id="Name" placeholder="Enter name" required="true">
+        <br><br>
+
+
+        <label for="user_password"> password:</label>
+        <input type ="password" id="user_password" placeholder="Enter password" required="true">
+        <br><br>
+
+        <input type="submit">
+
+        <hr>
+
+        <form action="/database">
+            Date:<input type="Date">
+            <br><br>
+            file: <input type="file">
+            <br><br>
+            color:<input type="color">
+            <br><br>
+            Range:<input type="range">
+            <br><br>
+            Poke me:<input type="Button" value="Click me">
+        </form>
+
+        <hr>
+
+        <form>
+            <label for="Male">Male</label>
+            <input type="radio" id="Male" name="gender" value="Male"><br>
+
+            <label for="Female">Female</label>
+            <input type="radio" id="Female" name="gender" value="Female"><br>
+
+            <label for="other">Other</label>
+            <input type="radio" id="other" name="gender" value="other"><br>
+
+        </form>
+
+        <hr>
+        <hr>
+
+        <form>
+            <label for="C">C</label>
+            <input type="checkbox" id="C" name="Lang" value="C"><br>
+
+            <label for="Java">Java</label>
+            <input type="checkbox" id="Java" name="Lang" value="Java"><br>
+
+            <label for="Python">Python</label>
+            <input type="checkbox" id="Python" name="Lang" value="Python"><br>
+
+        </form>
+
+        <hr><hr>
+
+        <form>
+            <select name="Country" id="country">
+                <option value="India">India</option>
+                <option value="US">US</option>
+                <option value="USA">USA</option>
+                <option value="UK">UK</option>
+
+            </select>
+        </form>
+
+        <textarea  name="Story" rows="10" cols="10">
+
+
+        </textarea>
+
+    </form>
+
+    
+
+
+</body>
+</html>
